@@ -1,12 +1,14 @@
 # CArmKinematic
-# CArmKinematic
 
-![Demo](demo.mp4)
+https://github.com/zhuyinheng/CArmKinematic/assets/16465741/d54adaa6-357f-4433-964e-e99747e5f98d
+
 
 This repository provides an [online visualizer for C-arm kinematics](https://zyh.science/CArmKinematic). It is based on the prebuilt [mujoco-wasm](https://zalo.github.io/mujoco_wasm/) library. 
 
 C-Arm is commonly used in Digital Subtracted Angiography, as shown in the example image below.
-![autocar](navigation_demo.mp4)
+
+https://github.com/zhuyinheng/CArmKinematic/assets/16465741/731d4197-9187-41bd-8ac0-f7cc59285150
+
 
 The images, or sequence of images, are captured from multiple views, constrained by C-arm kinematics as well as bed translation. This visualizer is used to understand these constraints. In fact, these constraints also provide clues for self-supervised training in reconstruction, as detailed in [AutoCAR](https://autocar.zyh.science).
 
